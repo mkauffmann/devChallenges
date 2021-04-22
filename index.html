@@ -7,89 +7,96 @@
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@500&family=Space+Mono&display=swap" rel="stylesheet"> 
+    <title>404 page</title>
 
     <style>
       body {
-        font-family: "Poppins", sans-serif;
+        font-family: "Space mono", monospace;
+        margin: 0;
       }
-
-      ul {
-        padding-left: 24px;
+      header {
+        margin-top: 20px;
+        margin-left: 24px;
+        margin-bottom: 0;
+        font-family: Inconsolata, sans-serif;
+        font-size: 24px;
+        color: #333333;
+        letter-spacing: -0.08em;
       }
-
-      li {
-        margin-bottom: 8px;
+      .img-container {
+        height: 15rem;
+        position: relative;
+        left: 44px;
+        top: 64px;
       }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
+      .img-container img {
+        height: 100%;
       }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
+      .text {
+        position: relative;
+        margin-left: 24px;
+        top: 77px;
       }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
+      .text h1 {
+        font-size: 48px;
+        color: #333333;
+        width: 350px;
       }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
+      .text p {
+        font-size: 18px;
+        color: #4F4F4F;
+        width: 328px;
+        margin-bottom: 60px;
       }
-
-      .welcome-text a {
-        color: #f7542e;
+      .button {
+        background-color: #333333;
+        width: 216px;
+        height: 68px;
+        box-sizing: border-box;
+        padding: 23px 43px;
+      }
+      .button a,
+      .button a:hover,
+      .button a:active {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        position: absolute;
+      }
+      footer {
+        color: #BDBDBD;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 150px;
       }
     </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+    <header>
+      <h3>404 NOT FOUND</h3>
+    </header>
+    <main>
+        <div class="img-container">
+          <img src="Scarecrow.png" />
+        </div>
+        <div class="text">
+          <div class="text__title">
+            <h1>I have bad news for you</h1>
+          </div>
+          <div class="text__p">
+            <p>
+              The page you are looking for might be removed or is temporarily
+              unavailable
+            </p>
+          <div class="button">
+            <a href="">BACK TO HOMEPAGE</a>
+          </div>
+    </main>
   </body>
+  <footer>
+    <p>created by <em>maria</em> - devChallenges.io</p>
+  </footer>
 </html>
