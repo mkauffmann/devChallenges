@@ -1,4 +1,4 @@
-<!-- Please update value in the {}  -->
+
 
 <h1 align="center">{404 Error Page}</h1>
 
@@ -8,8 +8,7 @@
 
 <div align="center">
   <h3>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{https://mystifying-easley-c19641.netlify.app/}">
       Solution
     </a>
     <span> | </span>
@@ -17,4 +16,8 @@
       Challenge
     </a>
   </h3>
+</div>
+
+<div align="center">
+   Responsive 404 error page made with HTML and CSS.
 </div>
