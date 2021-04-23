@@ -15,6 +15,7 @@
       body {
         font-family: "Space mono", monospace;
         margin: 0;
+        box-sizing: border-box;
       }
       main {
         width: 100%;
@@ -35,6 +36,8 @@
         margin-left: auto;
         margin-right: auto;
         padding: 0 2rem;
+        width: 80%;
+        align-items: center;
       }
       .img-container {
         height: 15rem;
@@ -43,17 +46,15 @@
         height: 100%;
       }
       .text {
-       /* position: relative;
-        margin-left: 24px;
-        top: 77px;*/
+       display: inline-block;
       }
       .text h1 {
-        font-size: 48px;
+        font-size: 3rem;
         color: #333333;
         width: 350px;
       }
       .text p {
-        font-size: 18px;
+        font-size: 1rem;
         color: #4F4F4F;
         width: 328px;
         margin-bottom: 60px;
@@ -84,6 +85,40 @@
         font-size: 14px;
         text-align: center;
         margin-top: 2rem;
+      }
+
+      @media  screen and (min-width: 700px) {
+        .container {
+          display: flex;
+          flex-direction: row;
+        }
+
+        .img-container {
+          margin-right: 2rem;
+        }
+        .text h1 {
+          font-size: 2rem;
+        }
+      }
+
+      @media screen and (min-width: 850px){
+        .container {
+          display: flex;
+          flex-direction: row;
+          width: 80%;
+          max-width: 700px;
+          flex-wrap: nowrap;
+        }
+        .img-container {
+          margin-right: 4rem;
+          height: 20rem;
+        }
+        .text h1 {
+          font-size: 3rem;
+        }
+        .text p {
+          font-size: 1.2rem;
+        }
       }
     </style>
   </head>
